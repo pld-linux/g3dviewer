@@ -21,7 +21,10 @@ BuildRequires:	rpmbuild(macros) >= 1.228
 Requires(post,preun):	/sbin/chkconfig
 Requires:	rc-scripts
 %endif
-#BuildRequires:	-
+BuildRequires:	libg3d-devel =>0.0.8
+BuildRequires:	glib2-devel >= 2.4.0
+BuildRequires:	gtk+2-devel >= 2.4.0
+BuildRequires:	pkg-config
 #BuildRequires:	autoconf
 #BuildRequires:	automake
 #BuildRequires:	intltool
